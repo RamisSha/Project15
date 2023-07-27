@@ -8,7 +8,9 @@
 <body>
     <center>
         <h1> My Name is {{Name}} </h1>
-        <h3> My Age is {{Age}} </h3>
+        {% if Age > 10 %}
+            <h3> My Age is {{Age}} </h3>
+        {% endif %}
     </center
     
 </body>
